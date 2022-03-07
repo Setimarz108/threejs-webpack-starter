@@ -8,7 +8,8 @@ html,
 body
 {
     height: 100vh;
-    font-family: 'Poppins';
+    font-family: 'Playfair Display';
+   
 }
 
 .webgl
@@ -17,4 +18,21 @@ body
     top: 0;
     left: 0;
     outline: none;
+     background: beige;
+}
+
+.content {
+    position:absolute;
+    display:grid;
+    align-items:center;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color:White;
+    font-size:5em;
+    font-weight: lighter;
+    margin-left: 10vw;
 }
